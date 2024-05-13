@@ -6,4 +6,8 @@ public class SimpleMath
     {
         return ++num;
     }
+    public static int decrement(int num)
+    {
+        return --num;
+    }
 }

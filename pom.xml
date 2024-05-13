@@ -6,7 +6,7 @@
 
     <groupId>org.AIgnaczak</groupId>
     <artifactId>maven_testy</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
@@ -17,9 +17,17 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub AIgnaczak Apache Maven Packages</name>
+            <name>Olek12s</name>
             <url>https://maven.pkg.github.com/Olek12s/maven_testy</url>
         </repository>
     </distributionManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.AIgnaczak</groupId>
+            <artifactId>maven_testy</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
